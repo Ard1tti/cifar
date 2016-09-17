@@ -1,0 +1,320 @@
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcurand.so locally
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:05:00.0
+Total memory: 11.25GiB
+Free memory: 3.98GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:572] creating context when one is currently active; existing: 0x79029d0
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 1 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:06:00.0
+Total memory: 11.25GiB
+Free memory: 11.13GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:572] creating context when one is currently active; existing: 0x7d153e0
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 2 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:09:00.0
+Total memory: 11.25GiB
+Free memory: 8.43GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:572] creating context when one is currently active; existing: 0x8128dc0
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 3 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:0a:00.0
+Total memory: 11.25GiB
+Free memory: 11.13GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:572] creating context when one is currently active; existing: 0x8546430
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 4 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:84:00.0
+Total memory: 11.25GiB
+Free memory: 11.13GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:572] creating context when one is currently active; existing: 0x8967600
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 5 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:85:00.0
+Total memory: 11.25GiB
+Free memory: 11.13GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:572] creating context when one is currently active; existing: 0x8d8c2b0
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 6 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:88:00.0
+Total memory: 11.25GiB
+Free memory: 9.81GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:572] creating context when one is currently active; existing: 0x91b4e40
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 7 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:89:00.0
+Total memory: 11.25GiB
+Free memory: 11.13GiB
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 0 to device ordinal 4
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 0 to device ordinal 5
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 0 to device ordinal 6
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 0 to device ordinal 7
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 1 to device ordinal 4
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 1 to device ordinal 5
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 1 to device ordinal 6
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 1 to device ordinal 7
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 2 to device ordinal 4
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 2 to device ordinal 5
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 2 to device ordinal 6
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 2 to device ordinal 7
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 3 to device ordinal 4
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 3 to device ordinal 5
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 3 to device ordinal 6
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 3 to device ordinal 7
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 4 to device ordinal 0
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 4 to device ordinal 1
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 4 to device ordinal 2
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 4 to device ordinal 3
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 5 to device ordinal 0
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 5 to device ordinal 1
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 5 to device ordinal 2
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 5 to device ordinal 3
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 6 to device ordinal 0
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 6 to device ordinal 1
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 6 to device ordinal 2
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 6 to device ordinal 3
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 7 to device ordinal 0
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 7 to device ordinal 1
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 7 to device ordinal 2
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 7 to device ordinal 3
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:126] DMA: 0 1 2 3 4 5 6 7 
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 0:   Y Y Y Y N N N N 
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 1:   Y Y Y Y N N N N 
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 2:   Y Y Y Y N N N N 
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 3:   Y Y Y Y N N N N 
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 4:   N N N N Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 5:   N N N N Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 6:   N N N N Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 7:   N N N N Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:839] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:839] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:06:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:839] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:09:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:839] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:0a:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:839] Creating TensorFlow device (/gpu:4) -> (device: 4, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:839] Creating TensorFlow device (/gpu:5) -> (device: 5, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:839] Creating TensorFlow device (/gpu:6) -> (device: 6, name: Tesla K80, pci bus id: 0000:88:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:839] Creating TensorFlow device (/gpu:7) -> (device: 7, name: Tesla K80, pci bus id: 0000:89:00.0)
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 2215 get requests, put_count=1892 evicted_count=1000 eviction_rate=0.528541 and unsatisfied allocation rate=0.642438
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:256] Raising pool_size_limit_ from 100 to 110
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 2410 get requests, put_count=3005 evicted_count=2000 eviction_rate=0.665557 and unsatisfied allocation rate=0.590041
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:256] Raising pool_size_limit_ from 193 to 212
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 2360 get requests, put_count=2296 evicted_count=1000 eviction_rate=0.43554 and unsatisfied allocation rate=0.469492
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:256] Raising pool_size_limit_ from 493 to 542
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 7225 get requests, put_count=7388 evicted_count=1000 eviction_rate=0.135355 and unsatisfied allocation rate=0.131765
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:256] Raising pool_size_limit_ from 1273 to 1400
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 4172480 get requests, put_count=4172533 evicted_count=8000 eviction_rate=0.0019173 and unsatisfied allocation rate=0.00194153
+Training ResInception_cifar10 model
+step 199, cross_entropy 2.44236
+test accuracy 0.18
+step 399, cross_entropy 2.04042
+test accuracy 0.25
+step 599, cross_entropy 1.90802
+test accuracy 0.323
+step 799, cross_entropy 1.8232
+test accuracy 0.278
+step 999, cross_entropy 1.71179
+test accuracy 0.353
+step 1199, cross_entropy 1.65006
+test accuracy 0.363
+step 1399, cross_entropy 1.58221
+test accuracy 0.323
+step 1599, cross_entropy 1.55765
+test accuracy 0.476
+step 1799, cross_entropy 1.48318
+test accuracy 0.362
+step 1999, cross_entropy 1.4255
+test accuracy 0.304
+step 2199, cross_entropy 1.35997
+test accuracy 0.25
+step 2399, cross_entropy 1.34718
+test accuracy 0.474
+step 2599, cross_entropy 1.30564
+test accuracy 0.407
+step 2799, cross_entropy 1.27248
+test accuracy 0.475
+step 2999, cross_entropy 1.24098
+test accuracy 0.458
+step 3199, cross_entropy 1.26367
+test accuracy 0.473
+step 3399, cross_entropy 1.21032
+test accuracy 0.568
+step 3599, cross_entropy 1.16878
+test accuracy 0.357
+step 3799, cross_entropy 1.13799
+test accuracy 0.591
+step 3999, cross_entropy 1.08922
+test accuracy 0.559
+step 4199, cross_entropy 1.09018
+test accuracy 0.447
+step 4399, cross_entropy 1.09578
+test accuracy 0.513
+step 4599, cross_entropy 1.04222
+test accuracy 0.586
+step 4799, cross_entropy 1.06605
+test accuracy 0.464
+step 4999, cross_entropy 1.03245
+test accuracy 0.317
+step 5199, cross_entropy 1.01038
+test accuracy 0.421
+step 5399, cross_entropy 0.994665
+test accuracy 0.567
+step 5599, cross_entropy 0.984089
+test accuracy 0.493
+step 5799, cross_entropy 0.980241
+test accuracy 0.528
+step 5999, cross_entropy 0.976709
+test accuracy 0.496
+step 6199, cross_entropy 0.918693
+test accuracy 0.504
+step 6399, cross_entropy 0.944046
+test accuracy 0.548
+step 6599, cross_entropy 0.930696
+test accuracy 0.568
+step 6799, cross_entropy 0.927684
+test accuracy 0.651
+step 6999, cross_entropy 0.894888
+test accuracy 0.641
+step 7199, cross_entropy 0.898437
+test accuracy 0.521
+step 7399, cross_entropy 0.866029
+test accuracy 0.641
+step 7599, cross_entropy 0.868662
+test accuracy 0.659
+step 7799, cross_entropy 0.859375
+test accuracy 0.615
+step 7999, cross_entropy 0.87349
+test accuracy 0.548
+step 8199, cross_entropy 0.853574
+test accuracy 0.701
+step 8399, cross_entropy 0.833629
+test accuracy 0.533
+step 8599, cross_entropy 0.833352
+test accuracy 0.591
+step 8799, cross_entropy 0.850497
+test accuracy 0.592
+step 8999, cross_entropy 0.799651
+test accuracy 0.602
+step 9199, cross_entropy 0.810704
+test accuracy 0.53
+step 9399, cross_entropy 0.800173
+test accuracy 0.715
+step 9599, cross_entropy 0.806435
+test accuracy 0.679
+step 9799, cross_entropy 0.772046
+test accuracy 0.633
+step 9999, cross_entropy 0.796545
+test accuracy 0.661
+step 10199, cross_entropy 0.770408
+test accuracy 0.726
+step 10399, cross_entropy 0.811786
+test accuracy 0.611
+step 10599, cross_entropy 0.736811
+test accuracy 0.581
+step 10799, cross_entropy 0.776995
+test accuracy 0.663
+step 10999, cross_entropy 0.716756
+test accuracy 0.734
+step 11199, cross_entropy 0.746017
+test accuracy 0.723
+step 11399, cross_entropy 0.723144
+test accuracy 0.62
+step 11599, cross_entropy 0.729244
+test accuracy 0.643
+step 11799, cross_entropy 0.733631
+test accuracy 0.695
+step 11999, cross_entropy 0.731872
+test accuracy 0.753
+step 12199, cross_entropy 0.733798
+test accuracy 0.691
+step 12399, cross_entropy 0.675981
+test accuracy 0.673
+step 12599, cross_entropy 0.70782
+test accuracy 0.686
+step 12799, cross_entropy 0.740659
+test accuracy 0.723
+step 12999, cross_entropy 0.710618
+test accuracy 0.654
+step 13199, cross_entropy 0.680835
+test accuracy 0.747
+step 13399, cross_entropy 0.708374
+test accuracy 0.612
+step 13599, cross_entropy 0.68263
+test accuracy 0.701
+step 13799, cross_entropy 0.718404
+test accuracy 0.673
+step 13999, cross_entropy 0.667156
+test accuracy 0.744
+step 14199, cross_entropy 0.654259
+test accuracy 0.738
+step 14399, cross_entropy 0.678053
+test accuracy 0.66
+step 14599, cross_entropy 0.663985
+test accuracy 0.71
+step 14799, cross_entropy 0.668676
+test accuracy 0.698
+step 14999, cross_entropy 0.647665
+test accuracy 0.782
+step 15199, cross_entropy 0.634538
+test accuracy 0.716
+step 15399, cross_entropy 0.635047
+test accuracy 0.735
+step 15599, cross_entropy 0.635524
+test accuracy 0.659
+step 15799, cross_entropy 0.676204
+test accuracy 0.73
+step 15999, cross_entropy 0.626987
+test accuracy 0.752
+step 16199, cross_entropy 0.650827
+test accuracy 0.774
+step 16399, cross_entropy 0.617689
+test accuracy 0.78
+step 16599, cross_entropy 0.645284
+test accuracy 0.674
+step 16799, cross_entropy 0.625864
+test accuracy 0.749
+step 16999, cross_entropy 0.605103
+test accuracy 0.765
+step 17199, cross_entropy 0.584633
+test accuracy 0.766
+step 17399, cross_entropy 0.5888
+test accuracy 0.747
+step 17599, cross_entropy 0.624622
+test accuracy 0.71
+step 17799, cross_entropy 0.601803
+test accuracy 0.785
+step 17999, cross_entropy 0.597093
+test accuracy 0.738
+step 18199, cross_entropy 0.58021
+test accuracy 0.705
+step 18399, cross_entropy 0.587275
+test accuracy 0.78
+step 18599, cross_entropy 0.554609
+test accuracy 0.739
+step 18799, cross_entropy 0.578001
+test accuracy 0.732
+step 18999, cross_entropy 0.602033
+test accuracy 0.774
+step 19199, cross_entropy 0.568282
+test accuracy 0.786
+step 19399, cross_entropy 0.548408
+test accuracy 0.774
+step 19599, cross_entropy 0.579509
+test accuracy 0.775
+step 19799, cross_entropy 0.56789
+test accuracy 0.778
+step 19999, cross_entropy 0.551379
+test accuracy 0.821
+highest accuracy: 0.821
