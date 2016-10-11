@@ -1,0 +1,541 @@
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcurand.so locally
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:05:00.0
+Total memory: 11.25GiB
+Free memory: 11.13GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:572] creating context when one is currently active; existing: 0x659e6b0
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 1 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:06:00.0
+Total memory: 11.25GiB
+Free memory: 11.13GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:572] creating context when one is currently active; existing: 0x69b0f10
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 2 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:09:00.0
+Total memory: 11.25GiB
+Free memory: 11.13GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:572] creating context when one is currently active; existing: 0x6dc5f80
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 3 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:0a:00.0
+Total memory: 11.25GiB
+Free memory: 11.13GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:572] creating context when one is currently active; existing: 0x71e3c00
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 4 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:84:00.0
+Total memory: 11.25GiB
+Free memory: 11.13GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:572] creating context when one is currently active; existing: 0x7604ee0
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 5 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:85:00.0
+Total memory: 11.25GiB
+Free memory: 11.13GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:572] creating context when one is currently active; existing: 0x7a29d30
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 6 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:88:00.0
+Total memory: 11.25GiB
+Free memory: 11.13GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:572] creating context when one is currently active; existing: 0x7e52820
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 7 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:89:00.0
+Total memory: 11.25GiB
+Free memory: 11.13GiB
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 0 to device ordinal 4
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 0 to device ordinal 5
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 0 to device ordinal 6
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 0 to device ordinal 7
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 1 to device ordinal 4
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 1 to device ordinal 5
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 1 to device ordinal 6
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 1 to device ordinal 7
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 2 to device ordinal 4
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 2 to device ordinal 5
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 2 to device ordinal 6
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 2 to device ordinal 7
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 3 to device ordinal 4
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 3 to device ordinal 5
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 3 to device ordinal 6
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 3 to device ordinal 7
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 4 to device ordinal 0
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 4 to device ordinal 1
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 4 to device ordinal 2
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 4 to device ordinal 3
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 5 to device ordinal 0
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 5 to device ordinal 1
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 5 to device ordinal 2
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 5 to device ordinal 3
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 6 to device ordinal 0
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 6 to device ordinal 1
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 6 to device ordinal 2
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 6 to device ordinal 3
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 7 to device ordinal 0
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 7 to device ordinal 1
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 7 to device ordinal 2
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:59] cannot enable peer access from device ordinal 7 to device ordinal 3
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:126] DMA: 0 1 2 3 4 5 6 7 
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 0:   Y Y Y Y N N N N 
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 1:   Y Y Y Y N N N N 
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 2:   Y Y Y Y N N N N 
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 3:   Y Y Y Y N N N N 
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 4:   N N N N Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 5:   N N N N Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 6:   N N N N Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 7:   N N N N Y Y Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:839] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:839] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:06:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:839] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:09:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:839] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:0a:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:839] Creating TensorFlow device (/gpu:4) -> (device: 4, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:839] Creating TensorFlow device (/gpu:5) -> (device: 5, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:839] Creating TensorFlow device (/gpu:6) -> (device: 6, name: Tesla K80, pci bus id: 0000:88:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:839] Creating TensorFlow device (/gpu:7) -> (device: 7, name: Tesla K80, pci bus id: 0000:89:00.0)
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 2360 get requests, put_count=1880 evicted_count=1000 eviction_rate=0.531915 and unsatisfied allocation rate=0.669492
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:256] Raising pool_size_limit_ from 100 to 110
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 0 get requests, put_count=1017 evicted_count=1000 eviction_rate=0.983284 and unsatisfied allocation rate=0
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 2360 get requests, put_count=1920 evicted_count=1000 eviction_rate=0.520833 and unsatisfied allocation rate=0.622881
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:256] Raising pool_size_limit_ from 339 to 372
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 2360 get requests, put_count=3243 evicted_count=2000 eviction_rate=0.616713 and unsatisfied allocation rate=0.498305
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:256] Raising pool_size_limit_ from 655 to 720
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 18880 get requests, put_count=18889 evicted_count=1000 eviction_rate=0.0529409 and unsatisfied allocation rate=0.0606462
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:256] Raising pool_size_limit_ from 1694 to 1863
+Training ResIncBN_cifar10 model
+Variables are initialized
+step 199, cross_entropy 2.43906
+test accuracy 0.218
+step 399, cross_entropy 1.96676
+test accuracy 0.307
+step 599, cross_entropy 1.86822
+test accuracy 0.259
+step 799, cross_entropy 1.813
+test accuracy 0.377
+step 999, cross_entropy 1.70853
+test accuracy 0.303
+step 1199, cross_entropy 1.59525
+test accuracy 0.365
+step 1399, cross_entropy 1.56698
+test accuracy 0.426
+step 1599, cross_entropy 1.542
+test accuracy 0.477
+step 1799, cross_entropy 1.42858
+test accuracy 0.472
+step 1999, cross_entropy 1.43005
+test accuracy 0.503
+Model saved in ../../ckpt/ResIncBN_cifar10/
+step 2199, cross_entropy 1.38218
+test accuracy 0.528
+step 2399, cross_entropy 1.30806
+test accuracy 0.475
+step 2599, cross_entropy 1.22024
+test accuracy 0.554
+step 2799, cross_entropy 1.24343
+test accuracy 0.511
+step 2999, cross_entropy 1.21693
+test accuracy 0.563
+step 3199, cross_entropy 1.19901
+test accuracy 0.609
+step 3399, cross_entropy 1.16471
+test accuracy 0.565
+step 3599, cross_entropy 1.1572
+test accuracy 0.649
+step 3799, cross_entropy 1.10557
+test accuracy 0.57
+step 3999, cross_entropy 1.12947
+test accuracy 0.628
+Model saved in ../../ckpt/ResIncBN_cifar10/
+step 4199, cross_entropy 1.10744
+test accuracy 0.559
+step 4399, cross_entropy 1.06671
+test accuracy 0.646
+step 4599, cross_entropy 1.04143
+test accuracy 0.635
+step 4799, cross_entropy 1.01869
+test accuracy 0.657
+step 4999, cross_entropy 1.06368
+test accuracy 0.672
+step 5199, cross_entropy 0.977097
+test accuracy 0.625
+step 5399, cross_entropy 0.986976
+test accuracy 0.663
+step 5599, cross_entropy 0.970382
+test accuracy 0.693
+step 5799, cross_entropy 0.955499
+test accuracy 0.672
+step 5999, cross_entropy 0.944082
+test accuracy 0.674
+Model saved in ../../ckpt/ResIncBN_cifar10/
+step 6199, cross_entropy 0.920832
+test accuracy 0.717
+step 6399, cross_entropy 0.918675
+test accuracy 0.68
+step 6599, cross_entropy 0.906214
+test accuracy 0.695
+step 6799, cross_entropy 0.877752
+test accuracy 0.626
+step 6999, cross_entropy 0.880098
+test accuracy 0.728
+step 7199, cross_entropy 0.906425
+test accuracy 0.677
+step 7399, cross_entropy 0.920329
+test accuracy 0.699
+step 7599, cross_entropy 0.878932
+test accuracy 0.695
+step 7799, cross_entropy 0.893456
+test accuracy 0.647
+step 7999, cross_entropy 0.830295
+test accuracy 0.733
+Model saved in ../../ckpt/ResIncBN_cifar10/
+step 8199, cross_entropy 0.843011
+test accuracy 0.717
+step 8399, cross_entropy 0.844806
+test accuracy 0.68
+step 8599, cross_entropy 0.821017
+test accuracy 0.746
+step 8799, cross_entropy 0.833457
+test accuracy 0.727
+step 8999, cross_entropy 0.834628
+test accuracy 0.703
+step 9199, cross_entropy 0.807316
+test accuracy 0.726
+step 9399, cross_entropy 0.786123
+test accuracy 0.73
+step 9599, cross_entropy 0.824711
+test accuracy 0.71
+step 9799, cross_entropy 0.775841
+test accuracy 0.721
+step 9999, cross_entropy 0.796364
+test accuracy 0.778
+Model saved in ../../ckpt/ResIncBN_cifar10/
+step 10199, cross_entropy 0.755686
+test accuracy 0.734
+step 10399, cross_entropy 0.763151
+test accuracy 0.761
+step 10599, cross_entropy 0.795503
+test accuracy 0.728
+step 10799, cross_entropy 0.763951
+test accuracy 0.756
+step 10999, cross_entropy 0.734824
+test accuracy 0.75
+step 11199, cross_entropy 0.756838
+test accuracy 0.74
+step 11399, cross_entropy 0.766997
+test accuracy 0.759
+step 11599, cross_entropy 0.729145
+test accuracy 0.759
+step 11799, cross_entropy 0.707361
+test accuracy 0.76
+step 11999, cross_entropy 0.764982
+test accuracy 0.741
+Model saved in ../../ckpt/ResIncBN_cifar10/
+step 12199, cross_entropy 0.696083
+test accuracy 0.729
+step 12399, cross_entropy 0.709568
+test accuracy 0.755
+step 12599, cross_entropy 0.70683
+test accuracy 0.743
+step 12799, cross_entropy 0.742685
+test accuracy 0.723
+step 12999, cross_entropy 0.693457
+test accuracy 0.754
+step 13199, cross_entropy 0.713591
+test accuracy 0.787
+step 13399, cross_entropy 0.663201
+test accuracy 0.767
+step 13599, cross_entropy 0.671841
+test accuracy 0.762
+step 13799, cross_entropy 0.68959
+test accuracy 0.73
+step 13999, cross_entropy 0.684621
+test accuracy 0.766
+Model saved in ../../ckpt/ResIncBN_cifar10/
+step 14199, cross_entropy 0.677354
+test accuracy 0.787
+step 14399, cross_entropy 0.66366
+test accuracy 0.763
+step 14599, cross_entropy 0.669368
+test accuracy 0.768
+step 14799, cross_entropy 0.661788
+test accuracy 0.802
+step 14999, cross_entropy 0.669861
+test accuracy 0.793
+step 15199, cross_entropy 0.639903
+test accuracy 0.786
+step 15399, cross_entropy 0.63992
+test accuracy 0.773
+step 15599, cross_entropy 0.651348
+test accuracy 0.784
+step 15799, cross_entropy 0.644303
+test accuracy 0.783
+step 15999, cross_entropy 0.625709
+test accuracy 0.747
+Model saved in ../../ckpt/ResIncBN_cifar10/
+step 16199, cross_entropy 0.628609
+test accuracy 0.745
+step 16399, cross_entropy 0.646214
+test accuracy 0.773
+step 16599, cross_entropy 0.644657
+test accuracy 0.813
+step 16799, cross_entropy 0.635618
+test accuracy 0.79
+step 16999, cross_entropy 0.605262
+test accuracy 0.8
+step 17199, cross_entropy 0.630822
+test accuracy 0.774
+step 17399, cross_entropy 0.604177
+test accuracy 0.778
+step 17599, cross_entropy 0.614655
+test accuracy 0.778
+step 17799, cross_entropy 0.599407
+test accuracy 0.793
+step 17999, cross_entropy 0.601516
+test accuracy 0.812
+Model saved in ../../ckpt/ResIncBN_cifar10/
+step 18199, cross_entropy 0.572104
+test accuracy 0.783
+step 18399, cross_entropy 0.618206
+test accuracy 0.785
+step 18599, cross_entropy 0.595096
+test accuracy 0.789
+step 18799, cross_entropy 0.612603
+test accuracy 0.824
+step 18999, cross_entropy 0.600682
+test accuracy 0.807
+step 19199, cross_entropy 0.539066
+test accuracy 0.796
+step 19399, cross_entropy 0.587913
+test accuracy 0.812
+step 19599, cross_entropy 0.572679
+test accuracy 0.786
+step 19799, cross_entropy 0.557694
+test accuracy 0.766
+step 19999, cross_entropy 0.569602
+test accuracy 0.797
+Model saved in ../../ckpt/ResIncBN_cifar10/
+step 20199, cross_entropy 0.561722
+test accuracy 0.829
+step 20399, cross_entropy 0.570222
+test accuracy 0.799
+step 20599, cross_entropy 0.552007
+test accuracy 0.809
+step 20799, cross_entropy 0.547424
+test accuracy 0.783
+step 20999, cross_entropy 0.539374
+test accuracy 0.768
+step 21199, cross_entropy 0.577161
+test accuracy 0.823
+step 21399, cross_entropy 0.521164
+test accuracy 0.824
+step 21599, cross_entropy 0.531504
+test accuracy 0.825
+step 21799, cross_entropy 0.534823
+test accuracy 0.799
+step 21999, cross_entropy 0.539085
+test accuracy 0.801
+Model saved in ../../ckpt/ResIncBN_cifar10/
+step 22199, cross_entropy 0.544286
+test accuracy 0.795
+step 22399, cross_entropy 0.510958
+test accuracy 0.801
+step 22599, cross_entropy 0.524341
+test accuracy 0.777
+step 22799, cross_entropy 0.547532
+test accuracy 0.793
+step 22999, cross_entropy 0.526729
+test accuracy 0.827
+step 23199, cross_entropy 0.50835
+test accuracy 0.79
+step 23399, cross_entropy 0.530059
+test accuracy 0.825
+step 23599, cross_entropy 0.521595
+test accuracy 0.795
+step 23799, cross_entropy 0.498683
+test accuracy 0.817
+step 23999, cross_entropy 0.482917
+test accuracy 0.807
+Model saved in ../../ckpt/ResIncBN_cifar10/
+step 24199, cross_entropy 0.510752
+test accuracy 0.81
+step 24399, cross_entropy 0.512051
+test accuracy 0.814
+step 24599, cross_entropy 0.524876
+test accuracy 0.814
+step 24799, cross_entropy 0.546239
+test accuracy 0.795
+step 24999, cross_entropy 0.529075
+test accuracy 0.809
+step 25199, cross_entropy 0.490246
+test accuracy 0.825
+step 25399, cross_entropy 0.497255
+test accuracy 0.817
+step 25599, cross_entropy 0.453512
+test accuracy 0.826
+step 25799, cross_entropy 0.48208
+test accuracy 0.833
+step 25999, cross_entropy 0.486783
+test accuracy 0.807
+Model saved in ../../ckpt/ResIncBN_cifar10/
+step 26199, cross_entropy 0.49894
+test accuracy 0.833
+step 26399, cross_entropy 0.451958
+test accuracy 0.813
+step 26599, cross_entropy 0.46462
+test accuracy 0.824
+step 26799, cross_entropy 0.465109
+test accuracy 0.795
+step 26999, cross_entropy 0.49935
+test accuracy 0.815
+step 27199, cross_entropy 0.48471
+test accuracy 0.815
+step 27399, cross_entropy 0.470558
+test accuracy 0.782
+step 27599, cross_entropy 0.468881
+test accuracy 0.833
+step 27799, cross_entropy 0.451686
+test accuracy 0.83
+step 27999, cross_entropy 0.462199
+test accuracy 0.845
+Model saved in ../../ckpt/ResIncBN_cifar10/
+step 28199, cross_entropy 0.465398
+test accuracy 0.824
+step 28399, cross_entropy 0.472136
+test accuracy 0.809
+step 28599, cross_entropy 0.452127
+test accuracy 0.831
+step 28799, cross_entropy 0.451228
+test accuracy 0.82
+step 28999, cross_entropy 0.480856
+test accuracy 0.819
+step 29199, cross_entropy 0.435619
+test accuracy 0.814
+step 29399, cross_entropy 0.420527
+test accuracy 0.836
+step 29599, cross_entropy 0.454233
+test accuracy 0.798
+step 29799, cross_entropy 0.427234
+test accuracy 0.846
+step 29999, cross_entropy 0.443151
+test accuracy 0.825
+Model saved in ../../ckpt/ResIncBN_cifar10/
+step 30199, cross_entropy 0.443623
+test accuracy 0.839
+step 30399, cross_entropy 0.430259
+test accuracy 0.82
+step 30599, cross_entropy 0.397252
+test accuracy 0.824
+step 30799, cross_entropy 0.409757
+test accuracy 0.858
+step 30999, cross_entropy 0.450638
+test accuracy 0.814
+step 31199, cross_entropy 0.429706
+test accuracy 0.81
+step 31399, cross_entropy 0.463542
+test accuracy 0.813
+step 31599, cross_entropy 0.454084
+test accuracy 0.843
+step 31799, cross_entropy 0.408278
+test accuracy 0.836
+step 31999, cross_entropy 0.457553
+test accuracy 0.812
+Model saved in ../../ckpt/ResIncBN_cifar10/
+step 32199, cross_entropy 0.407214
+test accuracy 0.801
+step 32399, cross_entropy 0.403311
+test accuracy 0.83
+step 32599, cross_entropy 0.448228
+test accuracy 0.823
+step 32799, cross_entropy 0.42413
+test accuracy 0.854
+step 32999, cross_entropy 0.38923
+test accuracy 0.817
+step 33199, cross_entropy 0.468261
+test accuracy 0.842
+step 33399, cross_entropy 0.421598
+test accuracy 0.822
+step 33599, cross_entropy 0.451092
+test accuracy 0.813
+step 33799, cross_entropy 0.418548
+test accuracy 0.825
+step 33999, cross_entropy 0.394339
+test accuracy 0.813
+Model saved in ../../ckpt/ResIncBN_cifar10/
+step 34199, cross_entropy 0.40367
+test accuracy 0.822
+step 34399, cross_entropy 0.422929
+test accuracy 0.84
+step 34599, cross_entropy 0.398168
+test accuracy 0.814
+step 34799, cross_entropy 0.390223
+test accuracy 0.828
+step 34999, cross_entropy 0.389012
+test accuracy 0.828
+step 35199, cross_entropy 0.427666
+test accuracy 0.85
+step 35399, cross_entropy 0.436032
+test accuracy 0.822
+step 35599, cross_entropy 0.385731
+test accuracy 0.836
+step 35799, cross_entropy 0.382024
+test accuracy 0.827
+step 35999, cross_entropy 0.399118
+test accuracy 0.815
+Model saved in ../../ckpt/ResIncBN_cifar10/
+step 36199, cross_entropy 0.402512
+test accuracy 0.797
+step 36399, cross_entropy 0.37819
+test accuracy 0.839
+step 36599, cross_entropy 0.377616
+test accuracy 0.845
+step 36799, cross_entropy 0.368741
+test accuracy 0.83
+step 36999, cross_entropy 0.403338
+test accuracy 0.852
+step 37199, cross_entropy 0.365847
+test accuracy 0.825
+step 37399, cross_entropy 0.387328
+test accuracy 0.807
+step 37599, cross_entropy 0.374791
+test accuracy 0.837
+step 37799, cross_entropy 0.407411
+test accuracy 0.818
+step 37999, cross_entropy 0.359482
+test accuracy 0.847
+Model saved in ../../ckpt/ResIncBN_cifar10/
+step 38199, cross_entropy 0.373535
+test accuracy 0.829
+step 38399, cross_entropy 0.41789
+test accuracy 0.846
+step 38599, cross_entropy 0.377616
+test accuracy 0.838
+step 38799, cross_entropy 0.374562
+test accuracy 0.831
+step 38999, cross_entropy 0.361975
+test accuracy 0.834
+step 39199, cross_entropy 0.375867
+test accuracy 0.832
+step 39399, cross_entropy 0.378913
+test accuracy 0.842
+step 39599, cross_entropy 0.37521
+test accuracy 0.829
+step 39799, cross_entropy 0.350582
+test accuracy 0.84
+step 39999, cross_entropy 0.348476
+test accuracy 0.841
+Model saved in ../../ckpt/ResIncBN_cifar10/
+highest accuracy: 0.858

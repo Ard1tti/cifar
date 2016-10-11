@@ -1,0 +1,20 @@
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcurand.so locally
+Training ResIncL_cifar10 model
+Traceback (most recent call last):
+  File "cifar_train_multi_gpu.py", line 129, in <module>
+    tf.app.run()
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/platform/app.py", line 30, in run
+    sys.exit(main(sys.argv))
+  File "cifar_train_multi_gpu.py", line 125, in main
+    train()
+  File "cifar_train_multi_gpu.py", line 69, in train
+    loss = tower_loss(train_batch, scope, 0.5, True)
+  File "cifar_train_multi_gpu.py", line 21, in tower_loss
+    logits = model.inference(images, keep_prob, True)
+  File "/home/blueconet/tensorflow/cifar/src/py/ResIncL_cifar10.py", line 23, in inference
+    conv1 = layer.conv2d_layer(images, [5, 5, 3, 64], name="conv1")
+AttributeError: 'module' object has no attribute 'conv2d_layer'

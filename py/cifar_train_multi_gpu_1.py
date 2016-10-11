@@ -1,37 +1,28 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Aug 28 11:43:00 2016
-
 @author: bong
 """
 
 from cifar_input import cifar10_input
-import ResIncL_cifar10 as model
+import ResInception_cifar10 as model
 import tensorflow as tf
-import os
 
 BATCH_SIZE=16
 EVAL_SIZE=1000
 NUM_GPUS=8
-CKPT_DIR="../../ckpt/"+model.__name__+"/"
+CKPT_DIR="../../ckpt/model.ckpt"
 
 def tower_loss(batch, scope, keep_prob, reuse):
     images, labels = batch
     
-    logits = model.inference(images, keep_prob, True)
+    logits = model.inference(images, keep_prob, True, reuse)
     _ = model.loss(logits, labels)
     
     losses = tf.get_collection('losses', scope)
     
     total_loss = tf.add_n(losses, name='total_loss')
     return total_loss
-
-def tower_accuracy(images, labels):
-    logits = model.inference(images, 1.0, False)
-    with tf.device('/cpu:0'):
-        accu = tf.reduce_mean(tf.cast(tf.nn.in_top_k(logits, labels, 1), tf.float32))
-
-    return accu
 
 def average_grads(list_grads):
     grads = []
@@ -52,13 +43,15 @@ def train():
         
         train_batch = train_data.dist_batch(BATCH_SIZE, 20000)
         images, labels = test_data.dist_batch(EVAL_SIZE, 4000)
-                
-        #logit = model.inference(images, keep_prob, False, False)
-        #accuracy = tf.reduce_mean(tf.cast(tf.nn.in_top_k(logit, labels, 1),tf.float32))
+        
+        keep_prob = tf.placeholder(tf.float32)
+        
+        logit = model.inference(images, keep_prob, False, False)
+        accuracy = tf.reduce_mean(tf.cast(tf.nn.in_top_k(logit, labels, 1),tf.float32))
+        tf.get_variable_scope().reuse_variables()
         
         tower_grads = []
         tower_losses = []
-        tower_accus = []
         
         lr = tf.placeholder(tf.float32)
         opt = tf.train.GradientDescentOptimizer(lr)
@@ -66,18 +59,13 @@ def train():
         for i in range(NUM_GPUS):
             with tf.device('/gpu:%d' % i):
                 with tf.name_scope('%s_%d' % ('tower', i)) as scope:
-                    loss = tower_loss(train_batch, scope, 0.5, True)
+                    loss = tower_loss(train_batch, scope, keep_prob, True)
                     grads = opt.compute_gradients(loss)
-                    tf.get_variable_scope().reuse_variables()
-                    accu = tower_accuracy(images, labels)
-                                        
                     tower_losses.append(loss)
                     tower_grads.append(grads)
-                    tower_accus.append(accu)
                     
         grads = average_grads(tower_grads)
         mean_loss = tf.reduce_mean(tower_losses)
-        mean_accu = tf.reduce_mean(tower_accus)
        
         train_op = opt.apply_gradients(grads)
     
@@ -87,36 +75,27 @@ def train():
         mean = 0.
         highest = 0.
         
-        saver = tf.train.Saver(tf.all_variables())
-        if not os.path.exists(CKPT_DIR):
-            os.makedirs(CKPT_DIR)
+        saver = tf.train.Saver()
         
-        ckpt = tf.train.get_checkpoint_state(CKPT_DIR)
-        if ckpt and ckpt.model_checkpoint_path:
-            saver.restore(sess, ckpt.model_checkpoint_path)
-            print("Variables are restored from "+ CKPT_DIR)
-        else:
-            sess.run(tf.initialize_all_variables())
-            print("Variables are initialized")
-        
+        sess.run(tf.initialize_all_variables())
         tf.train.start_queue_runners(sess=sess)
         for i in range(40000):
-            _, cross_entropy = sess.run([train_op, mean_loss], feed_dict = {lr:rate})
+            _, cross_entropy = sess.run([train_op, mean_loss], feed_dict = {keep_prob: 0.5,
+                                                                       lr:rate})
             mean = mean + cross_entropy/200
             if (i+1)%200 == 0 and i>0:
                 print("step %d, cross_entropy %g"%(i, mean))
                 mean=0.
         
             if (i+1)%200 == 0 and i>0:
-                eval_accuracy = sess.run(mean_accu)
+                eval_accuracy = sess.run(accuracy)
                 if eval_accuracy > highest:
                     highest = eval_accuracy
                 print("test accuracy %g"%(eval_accuracy))
                 
             if (i+1)%2000 == 0 and i>0:
-                checkpoint_path = os.path.join(CKPT_DIR, 'model.ckpt')
-                saver.save(sess, checkpoint_path)
-                print("Model saved in "+CKPT_DIR)
+                save_path = saver.save(sess, CKPT_DIR)
+                print("Model saved in "+save_path)
                 
         print("highest accuracy: %g"%(highest))
                 
